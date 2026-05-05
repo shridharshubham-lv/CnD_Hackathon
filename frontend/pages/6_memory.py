@@ -182,7 +182,7 @@ else:
             safe_copy = copy.encode("latin-1", "replace").decode("latin-1")
             pdf.multi_cell(0, 6, safe_copy)
             pdf.ln(8)
-        return pdf.output()
+        return bytes(pdf.output())
 
     asset_col1, asset_col2, asset_col3 = st.columns(3)
 
