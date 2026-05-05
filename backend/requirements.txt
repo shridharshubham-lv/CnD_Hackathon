@@ -1,0 +1,15 @@
+fastapi
+uvicorn[standard]
+openai>=1.0.0
+qdrant-client
+psycopg2-binary
+redis
+python-dotenv
+pydantic
+httpx
+numpy
+pdfplumber
+python-docx
+fpdf2
+streamlit
+requests
