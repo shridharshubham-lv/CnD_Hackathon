@@ -3,8 +3,8 @@ import requests
 import time as _time
 
 st.set_page_config(
-    page_title="Campaign Intelligence Platform",
-    page_icon="🎯",
+    page_title="Campaign IQ",
+    page_icon="",
     layout="wide",
     initial_sidebar_state="collapsed",
 )
@@ -133,10 +133,9 @@ def page_for_stage(stage: int) -> str:
 st.markdown(
     """
     <div style="text-align: center; padding: 0.5rem 0 1rem 0;">
-        <h1 style="font-size: 2.8rem;">🎯 Campaign Intelligence Platform</h1>
+        <h1 style="font-size: 2.8rem;">Campaign IQ</h1>
         <p style="font-size: 1.25rem; color: #666; max-width: 700px; margin: 0 auto;">
-            Analyze campaign briefs, generate execution plans, and catch copy errors —
-            all powered by AI, in minutes instead of days.
+            Your AI co-pilot for smarter campaigns — from brief to launch, with zero blind spots.
         </p>
     </div>
     """,

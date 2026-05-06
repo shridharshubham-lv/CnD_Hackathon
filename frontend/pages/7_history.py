@@ -22,7 +22,7 @@ st.markdown(
 st.title("📁 Campaign History")
 
 with st.sidebar:
-    st.markdown("### 🎯 Campaign Intelligence")
+    st.markdown("### 🎯 Campaign IQ")
     st.divider()
     if st.button("🏠 Home", key="hist_home", use_container_width=True):
         reset_campaign_state()

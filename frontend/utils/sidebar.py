@@ -67,7 +67,7 @@ def render_sidebar(current_stage: int):
     st.markdown(HIDE_PAGES_NAV, unsafe_allow_html=True)
     with st.sidebar:
         # --- Header ---
-        st.markdown("### 🎯 Campaign Intelligence")
+        st.markdown("### 🎯 Campaign IQ")
 
         st.divider()
 

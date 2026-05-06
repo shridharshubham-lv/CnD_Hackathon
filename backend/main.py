@@ -30,7 +30,7 @@ from utils.pipeline import PipelineTrace
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-app = FastAPI(title="Campaign Intelligence Platform", version="1.0.0")
+app = FastAPI(title="Campaign IQ", version="1.0.0")
 
 
 def _slugify_question_field(value: str) -> str:
